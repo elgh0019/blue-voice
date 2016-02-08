@@ -21,10 +21,13 @@
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
   </head>
-  <body>
-    <header>
+  <body class="noscript">
+    <div class="site-wrapper" data-state="slide-close">
+      <div class="sliding-canvas">
+    <header class="header">
       <h1>BlueVoice</h1>
-      <nav class="">
+      <a class="toggle-btn i-menu" href="#main-menu"><span>Menu</span></a>
+      <nav class="navigation slide-menu">
         <a class="close-btn i-close" href="#main-menu"><span>Close</span></a>
         <ul>
             <li><a href="#">Home</a></li>
@@ -64,6 +67,8 @@
     <footer>
 
     </footer>
+    </div> <!-- /sliding-canvas -->
+  </div> <!-- /site-wrapper -->
     <script src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/push-menu.js"></script>
