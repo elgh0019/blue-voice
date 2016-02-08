@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BlueVoice{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
+  <!-- ----- META NAME ----- -->
+    <meta name="description" content="{{page.meta}}">
+    <meta name="handheldfriendly" content="true">
+    <meta name="mobileoptimized" content="240">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ----- META PROPERTY ----- -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="BlueVoice · Home">
+    <meta property="og:url" content="https://bluevoice.org">
+    <meta property="og:image" content="http://fullurl.com/to-this/image.jpg">
+    <meta property="og:site_name" content="BlueVoice · Home">
+    <meta property="og:description" content="Saving Dolphins & Whales; Protecting the Oceans">
+  <!-- ----- LINKS ----- -->
+    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
+    <link rel="author" href="humans.txt">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+      <h1>BlueVoice</h1>
+      <nav class="">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Donate</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">News</a></li>
+                <!-- Sublinks
+                <li><a href="#">Dolphins</a></li>
+                <li><a href="#">Orcas</a></li>
+                <li><a href="#">Sharks</a></li>
+                <li><a href="#">Whales</a></li>
+                <li><a href="#">Ocean Issues</a></li>
+                <li><a href="#">BlueView Blog</a></li>
+                <li><a href="#">Media Center</a></li>
+                -->
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">Films</a></li>
+                <!-- Sublinks
+                <li><a href="#">Dolphins</a></li>
+                <li><a href="#">Humpback Whales</a></li>
+                <li><a href="#">Manta Rays</a></li>
+                <li><a href="#">Orcas</a></li>
+                <li><a href="#">Sealions</a></li>
+                <li><a href="#">Sharks</a></li>
+                <li><a href="#">Whales</a></li>
+                -->
+              <li><a href="#">Login</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <main>
+      {{content}}
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  </body>
+</html>
