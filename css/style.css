@@ -545,6 +545,7 @@ html {
 }
 
 body {
+  font-family: "Droid Serif", Times New Roman, Georgia, serif;
   margin: 0;
   padding: 0;
 }
@@ -561,7 +562,7 @@ header {
 
 h1 {
   color: #16315C;
-  font: "Oswald", Helvetica, Arial, sans-serif;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
 }
 
 .toggle-btn {
@@ -572,10 +573,11 @@ h1 {
 
 .navigation ul {
   padding: 0;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .navigation ul li {
-  font: "Oswald", Helvetica, Arial, sans-serif;
   list-style-type: none;
   color: #16315C;
 }
