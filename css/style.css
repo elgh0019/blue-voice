@@ -575,6 +575,7 @@ h1 {
 }
 
 .navigation ul li {
+  font: "Oswald", Helvetica, Arial, sans-serif;
   list-style-type: none;
   color: #16315C;
 }
