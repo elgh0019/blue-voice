@@ -18,6 +18,7 @@ html {
 }
 
 body {
+	font-family: $body;
 	@include zero;
 	&.noscript .close-btn,
 	&.noscript .toggle-btn {
@@ -32,7 +33,7 @@ header {
 
 h1 {
 	color: $blue;
-	font: $oswald;
+	font-family: $header;
 }
 
 .toggle-btn {
@@ -43,8 +44,9 @@ h1 {
 
 .navigation ul {
   padding: 0;
+  font-family: $header;
+  text-transform: uppercase;
   li {
-  	font: $oswald;
     list-style-type: none;
     color: $blue;
     &:first-child a {
@@ -127,5 +129,4 @@ h1 {
 body.noscript .slide-menu {
   position: static;
   right: auto;
-  
 }
