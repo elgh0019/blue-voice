@@ -1,2 +1,3 @@
 permalink: pretty
 baseurl: /bluevoice
+exclude:[scss]
