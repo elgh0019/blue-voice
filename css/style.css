@@ -556,13 +556,14 @@ body.noscript .toggle-btn {
 }
 
 header {
-  padding: 0 1em;
+  padding: 1em 1em;
   position: relative;
 }
 
 h1 {
   color: #16315C;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .toggle-btn {

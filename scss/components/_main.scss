@@ -27,13 +27,14 @@ body {
 }
 
 header {
-	padding: 0 1em;
+	padding: 1em 1em;
 	position: relative;
 }
 
 h1 {
 	color: $blue;
 	font-family: $header;
+	text-transform: uppercase;
 }
 
 .toggle-btn {
