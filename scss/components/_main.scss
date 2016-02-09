@@ -66,11 +66,10 @@ h1 {
     display: block;
     color: $white;
     text-align: center;
+    &:hover {
+    	color: $yellow;
+    }
   }
-}
-
-.donate {
-	color: $yellow;
 }
 
 .toggle-btn,
@@ -87,9 +86,19 @@ h1 {
     height: 40px;
     width: 40px;
   }
+  &:hover {
+  	color: $yellow;
+  }
   span {
     @include element-invisible;
   }
+}
+
+.donate {
+	color: $yellow;
+	&:hover {
+		color: $teal;
+	}
 }
 
 // Sliding Navigation
@@ -134,6 +143,12 @@ h1 {
   .toggle-btn,
   .close-btn {
     display: none;
+  }
+  .navigation ul {
+  	float: right;
+  	li {
+  		display: inline-block;
+  	}
   }
 }
 
