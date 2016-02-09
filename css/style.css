@@ -558,10 +558,11 @@ body.noscript .toggle-btn {
 header {
   padding: 1em 1em;
   position: relative;
+  background-color: #16315C;
 }
 
 h1 {
-  color: #16315C;
+  color: #fff;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
@@ -572,6 +573,10 @@ h1 {
   top: 0;
 }
 
+.navigation {
+  background-color: #16315C;
+}
+
 .navigation ul {
   padding: 0;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
@@ -580,25 +585,29 @@ h1 {
 
 .navigation ul li {
   list-style-type: none;
-  color: #16315C;
+  color: #fff;
 }
 
 .navigation ul li:first-child a {
-  border-top: 1px solid #3E6D78;
+  border-top: 1px solid #fff;
 }
 
 .navigation ul a {
   padding: .5em 1em;
-  border-bottom: 1px solid #3E6D78;
+  border-bottom: 1px solid #fff;
   text-decoration: none;
   display: block;
-  color: #16315C;
+  color: #fff;
   text-align: center;
+}
+
+.donate {
+  color: #D8BB6F;
 }
 
 .toggle-btn,
 .close-btn {
-  color: #16315C;
+  color: #fff;
   text-decoration: none;
   height: 40px;
   width: 40px;
@@ -606,9 +615,10 @@ h1 {
 
 .toggle-btn:before,
 .close-btn:before {
-  border: 1px solid #3E6D78;
+  border: 1px solid #fff;
   display: inline-block;
   padding: 13px 11px;
+  margin-top: 10px;
   height: 40px;
   width: 40px;
 }
