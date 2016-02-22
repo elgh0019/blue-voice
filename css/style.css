@@ -627,10 +627,6 @@ h1 {
   color: #fff;
 }
 
-.navigation ul li:first-child a {
-  border-top: 1px solid #fff;
-}
-
 .navigation ul a {
   padding: .5em 1em;
   border-bottom: 1px solid #fff;

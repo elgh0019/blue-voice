@@ -65,9 +65,6 @@ h1 {
   li {
     list-style-type: none;
     color: $white;
-    &:first-child a {
-      border-top: 1px solid $white;
-    }
   }
   a {
     padding: .5em 1em;
