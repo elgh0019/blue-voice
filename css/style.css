@@ -587,7 +587,7 @@ body.noscript .toggle-btn {
 header {
   padding: 1em 1em;
   position: relative;
-  background-color: #046d8b;
+  background-color: 46d8b;
 }
 
 .logo-header {
@@ -613,7 +613,7 @@ h1 {
 }
 
 .navigation {
-  background-color: #046d8b;
+  background-color: 46d8b;
 }
 
 .navigation ul {
@@ -722,7 +722,7 @@ h1 {
 }
 
 footer {
-  background-color: #046d8b;
+  background-color: 46d8b;
   font-size: 1.5em;
   text-align: center;
 }
