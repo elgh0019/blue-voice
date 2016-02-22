@@ -599,10 +599,17 @@ footer ul {
   text-transform: uppercase;
 }
 
-footer ul a {
+footer a {
   color: #fff;
   text-decoration: none;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+.logo {
+  width: 4em;
+  position: absolute;
+  margin-left: -5em;
+  margin-top: 1em;
 }
 
 header {
