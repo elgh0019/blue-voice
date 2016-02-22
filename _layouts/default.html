@@ -18,6 +18,7 @@
   <!-- ----- LINKS ----- -->
     <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
     <link href="https://file.myfontastic.com/MGBNLMU3WjcpkEBDsk5FqN/icons.css" rel="stylesheet">
+    <link href="https://file.myfontastic.com/QGxgiFpq4RvHbdEHEn.../icons.css" rel="stylesheet">
     <link rel="author" href="humans.txt">
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
@@ -26,35 +27,36 @@
     <div class="site-wrapper grid" data-state="slide-close">
       <div class="sliding-canvas unit">
         <header class="header cf ">
+          <img class="logo-header" src="{{site.baseurl}}/images/logo.svg">
           <h1>BlueVoice</h1>
           <a class="toggle-btn i-menu" href="#main-menu"><span>Menu</span></a>
           <nav class="navigation slide-menu">
             <a class="close-btn i-close" href="#main-menu"><span>Close</span></a>
             <ul>
-                <li><a class="donate" href="#">Donate</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">News</a></li>
-                  <!-- Sublinks
-                  <li><a href="#">Dolphins</a></li>
-                  <li><a href="#">Orcas</a></li>
-                  <li><a href="#">Sharks</a></li>
-                  <li><a href="#">Whales</a></li>
-                  <li><a href="#">Ocean Issues</a></li>
-                  <li><a href="#">BlueView Blog</a></li>
-                  <li><a href="#">Media Center</a></li>
-                  -->
-                <li><a href="#">Films</a></li>
-                  <!-- Sublinks
-                  <li><a href="#">Dolphins</a></li>
-                  <li><a href="#">Humpback Whales</a></li>
-                  <li><a href="#">Manta Rays</a></li>
-                  <li><a href="#">Orcas</a></li>
-                  <li><a href="#">Sealions</a></li>
-                  <li><a href="#">Sharks</a></li>
-                  <li><a href="#">Whales</a></li>
-                  -->
+              <li><a class="donate" href="#">Donate</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">News</a></li>
+                <!-- Sublinks
+                <li><a href="#">Dolphins</a></li>
+                <li><a href="#">Orcas</a></li>
+                <li><a href="#">Sharks</a></li>
+                <li><a href="#">Whales</a></li>
+                <li><a href="#">Ocean Issues</a></li>
+                <li><a href="#">BlueView Blog</a></li>
+                <li><a href="#">Media Center</a></li>
+                -->
+              <li><a href="#">Films</a></li>
+                <!-- Sublinks
+                <li><a href="#">Dolphins</a></li>
+                <li><a href="#">Humpback Whales</a></li>
+                <li><a href="#">Manta Rays</a></li>
+                <li><a href="#">Orcas</a></li>
+                <li><a href="#">Sealions</a></li>
+                <li><a href="#">Sharks</a></li>
+                <li><a href="#">Whales</a></li>
+                -->
             </ul>
           </nav>
           <div class="grid">
@@ -62,29 +64,23 @@
           </div>
         </header>
 
+        <main>
+          {{content}}
+        </main>
 
-
-      <main>
-        {{content}}
-      </main>
-
-
+        <footer class="">
+          <img class="logo-footer" src="{{site.baseurl}}/images/logo.svg">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Films</a></li>
+              <li><a class="" href="#">Donate</a></li>
+          </ul>
+        </footer>
       </div> <!-- /sliding-canvas -->
     </div> <!-- /site-wrapper -->
-
-    <footer class="">
-
-      <img class="logo" src="{{site.baseurl}}/images/logo.svg">
-      <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Films</a></li>
-          <li><a class="" href="#">Donate</a></li>
-      </ul>
-
-    </footer>
   <!-- ----- JS ----- -->
     <script src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

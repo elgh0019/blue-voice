@@ -26,48 +26,14 @@ body {
 	}
 }
 
-footer{
-  background-color: $blue;
-  font-size:1.5em;
-  text-align: center;
-
-  ul{
-    list-style-type: none;
-    display: inline-block;
-    padding: 1em;
-    text-transform: uppercase;
-  }
-
-  li{
-  }
-
-  a{
-    color:$white;
-    text-decoration:none;
-    font-family: $header;
-      &:hover {
-      color: $yellow;
-    }
-
-
-  }
-
-}
-
-.logo{
-    width: 4em;
-    position: absolute;
-    margin-left: -5em;
-    margin-top: 1em;
-
-}
-
-
-
 header {
 	padding: 1em 1em;
 	position: relative;
 	background-color: $blue;
+}
+
+.logo-header {
+  width: 4em;
 }
 
 h1 {
@@ -177,7 +143,35 @@ h1 {
   }
 } // /max-width media-query
 
+// FOOTER
+footer{
+  background-color: $blue;
+  font-size:1.5em;
+  text-align: center;
+  ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  li{
+  }
+  a{
+    color:$white;
+    text-decoration:none;
+    font-family: $header;
+      &:hover {
+      color: $yellow;
+    }
+  }
+}
 
+.logo-footer {
+    width: 4em;
+    position: absolute;
+    margin-left: -5em;
+    margin-top: 1em;
+}
 
 @media only screen and (min-width: 60em){
   .toggle-btn,
