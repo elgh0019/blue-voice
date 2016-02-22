@@ -586,6 +586,17 @@ body.noscript .toggle-btn {
   display: none;
 }
 
+footer {
+  background-color: #2d456c;
+  font-size: 1.5em;
+}
+
+footer ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1em;
+}
+
 header {
   padding: 1em 1em;
   position: relative;
