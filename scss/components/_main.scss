@@ -38,10 +38,17 @@ footer{
     text-transform: uppercase;
   }
 
+  li{
+  }
+
   a{
     color:$white;
     text-decoration:none;
     font-family: $header;
+      &:hover {
+      color: $yellow;
+    }
+
 
   }
 
@@ -170,6 +177,8 @@ h1 {
   }
 } // /max-width media-query
 
+
+
 @media only screen and (min-width: 60em){
   .toggle-btn,
   .close-btn {
@@ -181,7 +190,17 @@ h1 {
   		display: inline-block;
   	}
   }
+
+  footer {
+    li{
+      float:left;
+      padding: 1.5em;
+      // display:block;
+    }
 }
+
+}
+
 
 body.noscript .slide-menu {
   position: static;

@@ -605,6 +605,10 @@ footer a {
   font-family: "Oswald", Helvetica, Arial, sans-serif;
 }
 
+footer a:hover {
+  color: #f1d159;
+}
+
 .logo {
   width: 4em;
   position: absolute;
@@ -744,6 +748,10 @@ h1 {
   }
   .navigation ul li {
     display: inline-block;
+  }
+  footer li {
+    float: left;
+    padding: 1.5em;
   }
 }
 
