@@ -131,20 +131,20 @@ h1 {
     }
 }
 
-.banner-topic,
-.banner-link{
+.topic,
+.link{
   position: absolute;
   color:$white;
   background-color:$blue;
 
 }
 
-  .banner-topic{
+  .topic{
     top:17%;
     margin-left:1em;
   }
 
-  .banner-link{
+  .link{
     top:20%;
     margin-left:1em;
   }

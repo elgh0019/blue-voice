@@ -701,19 +701,19 @@ h1 {
   font: "Oswald", Helvetica, Arial, sans-serif;
 }
 
-.banner-topic,
-.banner-link {
+.topic,
+.link {
   position: absolute;
   color: #fff;
   background-color: #046d8b;
 }
 
-.banner-topic {
+.topic {
   top: 17%;
   margin-left: 1em;
 }
 
-.banner-link {
+.link {
   top: 20%;
   margin-left: 1em;
 }
