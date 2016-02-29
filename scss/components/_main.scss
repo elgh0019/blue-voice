@@ -124,31 +124,41 @@ h1 {
 }
 
 //BANNER
-.banner img {
+
+
+.banner {
+  img {
   width:100%;
-    h2 {
-      font: $header;
-    }
-}
+  }
 
-.topic,
-.link{
-  position: absolute;
+  h2{
+    background-color:$blue;
+    color:$white;
+    padding: .25em;
+
+  }
+  a{
+    background-color:$blue;
+    color:$white;
+    padding: .25em;
+
+
+  }
+}
+.article{
   color:$white;
-  background-color:$blue;
-
+  position:absolute;
+  top:20%;
 }
 
-  .topic{
-    top:17%;
-    margin-left:1em;
+.article-2{
+  color:$white;
+  position:absolute;
+  top:60%;
+  h4{
+    background-color:$blue;
   }
-
-  .link{
-    top:20%;
-    margin-left:1em;
-  }
-
+}
 
 // FOOTER
 

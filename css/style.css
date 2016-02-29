@@ -697,25 +697,32 @@ h1 {
   width: 100%;
 }
 
-.banner img h2 {
-  font: "Oswald", Helvetica, Arial, sans-serif;
-}
-
-.topic,
-.link {
-  position: absolute;
-  color: #fff;
+.banner h2 {
   background-color: #046d8b;
+  color: #fff;
+  padding: .25em;
 }
 
-.topic {
-  top: 17%;
-  margin-left: 1em;
+.banner a {
+  background-color: #046d8b;
+  color: #fff;
+  padding: .25em;
 }
 
-.link {
+.article {
+  color: #fff;
+  position: absolute;
   top: 20%;
-  margin-left: 1em;
+}
+
+.article-2 {
+  color: #fff;
+  position: absolute;
+  top: 60%;
+}
+
+.article-2 h4 {
+  background-color: #046d8b;
 }
 
 footer {
