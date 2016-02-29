@@ -131,10 +131,24 @@ h1 {
     }
 }
 
-.banner-topic{
+.banner-topic,
+.banner-link{
   position: absolute;
-  top: 15%;
+  color:$white;
+  background-color:$blue;
+
 }
+
+  .banner-topic{
+    top:17%;
+    margin-left:1em;
+  }
+
+  .banner-link{
+    top:20%;
+    margin-left:1em;
+  }
+
 
 // FOOTER
 
