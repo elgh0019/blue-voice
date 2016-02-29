@@ -132,7 +132,7 @@ footer{
   ul{
     list-style-type: none;
     display: inline-block;
-    padding: 1em;
+    padding: .5em;
     text-transform: uppercase;
   }
   li{
@@ -149,7 +149,7 @@ footer{
 
 .logo-footer {
     width: 4em;
-    position: absolute;
+    // position: absolute;
     margin-left: -5em;
     margin-top: 1em;
 }
@@ -210,7 +210,7 @@ footer{
   footer {
     li{
       float:left;
-      padding: 1.5em;
+      padding: .5em;
       // display:block;
     }
   }
