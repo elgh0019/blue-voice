@@ -693,6 +693,19 @@ h1 {
   border-bottom: 0px;
 }
 
+.banner img {
+  width: 100%;
+}
+
+.banner img h2 {
+  font: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+.banner-topic {
+  position: absolute;
+  top: 15%;
+}
+
 footer {
   background-color: #046d8b;
   font-size: 1.5em;
@@ -771,6 +784,17 @@ footer a:hover {
   footer li {
     float: left;
     padding: .5em;
+  }
+  .banner img {
+    width: 100%;
+    height: 400px;
+  }
+  .banner img h2 {
+    font: "Oswald", Helvetica, Arial, sans-serif;
+  }
+  .banner-topic {
+    position: absolute;
+    top: 65%;
   }
 }
 
