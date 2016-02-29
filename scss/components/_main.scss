@@ -132,24 +132,23 @@ h2{
 }
 
   .banner-topic{
-    position:absolute;
-    top:15%;
+    position: absolute;
+    top: 15%;
   }
-
-
 
 // FOOTER
 
-footer{
+footer {
   background-color: $blue;
   text-align: center;
-  ul{
+  margin-bottom: 0;
+  ul {
     list-style-type: none;
     display: inline-block;
     padding: .5em;
     text-transform: uppercase;
   }
-  li{
+  li {
   }
   a{
     color:$white;
@@ -163,7 +162,6 @@ footer{
 
 .logo-footer {
     width: 4em;
-    // position: absolute;
     margin-left: -5em;
     margin-top: 1em;
 }

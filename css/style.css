@@ -707,6 +707,7 @@ h1 {
 footer {
   background-color: #046d8b;
   text-align: center;
+  margin-bottom: 0;
 }
 
 footer ul {
