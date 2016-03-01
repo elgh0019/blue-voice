@@ -726,10 +726,21 @@ h1 {
   background-color: #046d8b;
 }
 
+.news {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+.story {
+  float: left;
+}
+
 footer {
   background-color: #046d8b;
   text-align: center;
   margin-bottom: 0;
+  clear: both;
 }
 
 footer ul {
@@ -804,6 +815,13 @@ footer a:hover {
   footer li {
     float: left;
     padding: .5em;
+  }
+  .banner img {
+    height: 450px;
+  }
+  .banner .article {
+    position: absolute;
+    top: 25em;
   }
 }
 

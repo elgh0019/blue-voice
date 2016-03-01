@@ -161,12 +161,26 @@ h1 {
   }
 }
 
+.news{
+  width:100%;
+  float:left;
+  overflow:hidden;
+}
+.story{
+  float:left;
+
+  }
+
+
+
+
 // FOOTER
 
 footer {
   background-color: $blue;
   text-align: center;
   margin-bottom: 0;
+  clear:both;
   ul {
     list-style-type: none;
     display: inline-block;
@@ -259,9 +273,17 @@ footer {
     }
   }
 
+.banner{
+  img{
+    height:450px;
+  }
+  .article{
+    position:absolute;
+    top:25em;
+    }
 
+  }
 }
-
 body.noscript .slide-menu {
   position: static;
   right: auto;
