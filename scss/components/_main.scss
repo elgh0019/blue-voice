@@ -153,8 +153,9 @@ h1 {
 
 .article-2{
   color:$white;
-  position:relative;
-  top:15em;
+  position: absolute;
+  margin-top: -11em;
+  padding: 2rem;
   h4{
     background-color:$blue;
   }

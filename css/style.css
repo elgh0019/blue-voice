@@ -717,8 +717,9 @@ h1 {
 
 .article-2 {
   color: #fff;
-  position: relative;
-  top: 15em;
+  position: absolute;
+  margin-top: -11em;
+  padding: 2rem;
 }
 
 .article-2 h4 {
