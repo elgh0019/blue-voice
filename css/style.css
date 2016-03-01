@@ -709,16 +709,16 @@ h1 {
   padding: .25em;
 }
 
-.article {
+.banner .article {
   color: #fff;
   position: absolute;
-  top: 20%;
+  top: 12em;
 }
 
 .article-2 {
   color: #fff;
-  position: absolute;
-  top: 60%;
+  position: relative;
+  top: 15em;
 }
 
 .article-2 h4 {
@@ -803,17 +803,6 @@ footer a:hover {
   footer li {
     float: left;
     padding: .5em;
-  }
-  .banner img {
-    width: 100%;
-    height: 400px;
-  }
-  .banner img h2 {
-    font: "Oswald", Helvetica, Arial, sans-serif;
-  }
-  .banner-topic {
-    position: absolute;
-    top: 65%;
   }
 }
 
