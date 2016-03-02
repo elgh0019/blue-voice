@@ -697,18 +697,50 @@ h1 {
   width: 100%;
 }
 
-.banner img h2 {
-  font: "Oswald", Helvetica, Arial, sans-serif;
+.banner h2 {
+  background-color: #046d8b;
+  color: #fff;
+  padding: .25em;
 }
 
-.banner-topic {
+.banner a {
+  background-color: #046d8b;
+  color: #fff;
+  padding: .25em;
+}
+
+.banner .article {
+  color: #fff;
   position: absolute;
-  top: 15%;
+  top: 12em;
+}
+
+.article-2 {
+  color: #fff;
+  position: absolute;
+  margin-top: -11em;
+  padding: 2rem;
+}
+
+.article-2 h4 {
+  background-color: #046d8b;
+}
+
+.news {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+.story {
+  float: left;
 }
 
 footer {
   background-color: #046d8b;
   text-align: center;
+  margin-bottom: 0;
+  clear: both;
 }
 
 footer ul {
@@ -785,15 +817,11 @@ footer a:hover {
     padding: .5em;
   }
   .banner img {
-    width: 100%;
-    height: 400px;
+    height: 450px;
   }
-  .banner img h2 {
-    font: "Oswald", Helvetica, Arial, sans-serif;
-  }
-  .banner-topic {
+  .banner .article {
     position: absolute;
-    top: 65%;
+    top: 25em;
   }
 }
 

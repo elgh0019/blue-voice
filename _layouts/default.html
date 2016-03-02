@@ -23,18 +23,18 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
   </head>
   <body class="noscript">
-    <div class="site-wrapper grid" data-state="slide-close">
-      <div class="sliding-canvas unit">
+    <div class="site-wrapper " data-state="slide-close">
+      <div class="sliding-canvas ">
         <header class="header cf">
-          <img class="logo-header" src="{{site.baseurl}}/images/logo.svg">
-          <h1>BlueVoice</h1>
+          <a href="{{site.baseurl}}"><img class="logo-header" src="{{site.baseurl}}/images/logo.svg">
+          <h1>BlueVoice</h1></a>
           <a class="toggle-btn icon-bars" href="#main-menu"><span>Menu</span></a>
           <nav class="navigation slide-menu">
             <a class="close-btn icon-times" href="#main-menu"><span>Close</span></a>
             <ul>
               <li><a href="{{site.baseurl}}/">Home</a></li>
               <li><a href="{{site.baseurl}}/about">About</a></li>
-              <li><a href="{{site.baseurl}}/shop">Shop</a></li>
+              <li><a href="http://www.cafepress.com/bluevoice">Shop</a></li>
               <li><a href="{{site.baseurl}}/news">News</a></li>
                 <!-- Sublinks
                 <li><a href="#">Dolphins</a></li>
@@ -64,12 +64,12 @@
           {{content}}
         </main>
 
-        <footer class="push">
+        <footer class="">
           <img class="logo-footer" src="{{site.baseurl}}/images/logo.svg">
           <ul>
               <li><a href="{{site.baseurl}}/">Home</a></li>
               <li><a href="{{site.baseurl}}/about">About</a></li>
-              <li><a href="{{site.baseurl}}/shop">Shop</a></li>
+              <li><a href="http://www.cafepress.com/bluevoice">Shop</a></li>
               <li><a href="{{site.baseurl}}/news">News</a></li>
               <li><a href="{{site.baseurl}}/film">Films</a></li>
               <li><a class="donate" href="#">Donate</a></li>
@@ -79,6 +79,6 @@
     </div> <!-- /site-wrapper -->
   <!-- ----- JS ----- -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{site.baseurl}}/js/main.js"></script>
   </body>
 </html>
