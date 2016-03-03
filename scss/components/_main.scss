@@ -84,6 +84,20 @@ h1 {
   }
 }
 
+.hardy{
+  width: 100%;
+  text-align: center;
+}
+
+.bold{
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.h2{
+  font-family:$header;
+}
+
 .toggle-btn,
 .close-btn {
   color: $white;
@@ -266,22 +280,23 @@ footer {
       // display:block;
     }
   }
-<<<<<<< HEAD
-
-.banner{
-  img{
-    height:450px;
-  }
-  .article{
-    position:absolute;
-    top:25em;
-    }
-
-  }
-=======
->>>>>>> origin/gh-pages
 }
-body.noscript .slide-menu {
-  position: static;
-  right: auto;
-}
+// <<<<<<< HEAD
+
+// .banner{
+//   img{
+//     height:450px;
+//   }
+//   .article{
+//     position:absolute;
+//     top:25em;
+//     }
+
+//   }
+// =======
+// >>>>>>> origin/gh-pages
+// }
+// body.noscript .slide-menu {
+//   position: static;
+//   right: auto;
+// }
