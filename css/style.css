@@ -718,16 +718,14 @@ h1 {
 .article-2 {
   color: #fff;
   position: absolute;
-  margin-top: -10em;
-  padding: 2em;
-  width: 400px;
+  margin-top: -11em;
+  padding: 2rem;
   float: left;
-  line-height: .5em;
+  border: 2px solid black;
 }
 
 .article-2 h4 {
   background-color: #046d8b;
-  padding: 1em;
 }
 
 .news {
