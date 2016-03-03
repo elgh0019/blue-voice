@@ -154,10 +154,13 @@ h1 {
   position: absolute;
   margin-top: -11em;
   padding: 2rem;
+  float:left;
+  border:2px solid black;
   h4{
     background-color:$blue;
   }
 }
+
 
 .news{
   width:100%;
@@ -169,6 +172,9 @@ h1 {
 
   }
 
+.story-left{
+  float:left;
+}
 
 
 
