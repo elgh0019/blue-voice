@@ -740,12 +740,15 @@ h1 {
   padding: 2em;
   width: 400px;
   float: left;
-  line-height: .5em;
 }
 
 .article-2 h4 {
   background-color: #046d8b;
   padding: 1em;
+}
+
+.article-2 a {
+  top: .5em;
 }
 
 .news {

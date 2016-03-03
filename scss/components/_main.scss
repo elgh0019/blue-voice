@@ -170,10 +170,12 @@ h1 {
   padding: 2em;
   width:400px;
   float:left;
-  line-height:.5em;
   h4{
     background-color:$blue;
     padding: 1em;
+  }
+  a{
+    top:.5em;
   }
 }
 
