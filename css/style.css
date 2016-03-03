@@ -720,6 +720,8 @@ h1 {
   position: absolute;
   margin-top: -11em;
   padding: 2rem;
+  float: left;
+  border: 2px solid black;
 }
 
 .article-2 h4 {
@@ -733,6 +735,10 @@ h1 {
 }
 
 .story {
+  float: left;
+}
+
+.story-left {
   float: left;
 }
 
