@@ -699,7 +699,6 @@ h1 {
   padding: 15px 32px;
   display: inline-block;
   width: 100px;
-  margin: auto;
 }
 
 .donate:hover {
@@ -841,6 +840,18 @@ footer a:hover {
     float: left;
     padding: .5em;
   }
+  .banner img {
+    height: 450px;
+  }
+  .banner .article {
+    position: absolute;
+    top: 25em;
+  }
+}
+
+body.noscript .slide-menu {
+  position: static;
+  right: auto;
 }
 
 .video {
