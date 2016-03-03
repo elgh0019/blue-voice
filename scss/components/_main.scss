@@ -167,12 +167,14 @@ h1 {
 .article-2{
   color:$white;
   position: absolute;
-  margin-top: -11em;
-  padding: 2rem;
+  margin-top: -10em;
+  padding: 2em;
+  width:400px;
   float:left;
-  border:2px solid black;
+  line-height:.5em;
   h4{
     background-color:$blue;
+    padding: 1em;
   }
 }
 
@@ -281,4 +283,25 @@ footer {
       // display:block;
     }
   }
+//<<<<<<< HEAD
+// HEAD
+
+.banner{
+  img{
+    height:450px;
+  }
+  .article{
+    position:absolute;
+    top:25em;
+    }
+
+  }
+
+//origin/gh-pages
+}
+body.noscript .slide-menu {
+  position: static;
+  right: auto;
+//=======
+//>>>>>>> gh-pages
 }
