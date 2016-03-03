@@ -166,12 +166,14 @@ h1 {
 .article-2{
   color:$white;
   position: absolute;
-  margin-top: -11em;
-  padding: 2rem;
+  margin-top: -10em;
+  padding: 2em;
+  width:400px;
   float:left;
-  border:2px solid black;
+  line-height:.5em;
   h4{
     background-color:$blue;
+    padding: 1em;
   }
 }
 
@@ -280,6 +282,7 @@ footer {
       // display:block;
     }
   }
+
 // HEAD
 
 .banner{

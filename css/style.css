@@ -736,14 +736,16 @@ h1 {
 .article-2 {
   color: #fff;
   position: absolute;
-  margin-top: -11em;
-  padding: 2rem;
+  margin-top: -10em;
+  padding: 2em;
+  width: 400px;
   float: left;
-  border: 2px solid black;
+  line-height: .5em;
 }
 
 .article-2 h4 {
   background-color: #046d8b;
+  padding: 1em;
 }
 
 .news {
